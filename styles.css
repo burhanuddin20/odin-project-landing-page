@@ -1,0 +1,198 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 80px 80px 80px;
+}
+
+
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.intro {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex: 0 0 50%
+
+}
+
+.intro-text h1{
+    color: #F9FAF1;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.intro-text p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.intro-image {
+    flex: 0 0 50%; /* Ensures the container takes up 50% of the parent's width */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+}
+
+.intro-image img {
+    width: 100%; /* Fills the entire width of the container */
+    height: 200px;  /* Adjust as needed for your desired height */
+  }
+  
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px 80px 80px;
+
+}
+
+.mid-title {
+    font-size: 900;
+    font-size: 36px;
+    color: #1f2937;
+    
+}
+
+.info-sqrs{
+    display: flex;
+    flex-direction: row;
+}
+.sqr{
+    
+    border: 5px solid #3882f6; 
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+.sqrs-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 20px;
+    text-align: center;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px 80px 80px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 20px 20px;
+   
+}
+
+.author{
+    margin-left: auto;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    border-radius: 6px;
+    margin: 40px 80px 40px 80px;
+ 
+}
+
+.call-text{
+    background-color: #3882f6;
+
+}
+
+#call{
+    background-color: #3882f6;
+    border-radius: 15px;
+    border: solid 2px white;
+}
+
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
